@@ -1,0 +1,171 @@
+*{
+    font-family: cursive;
+}
+#navBar{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+#navBar ul{
+    list-style: none;
+    margin: 0px 20px 0px 20px;
+}
+#bold{
+    font-weight: bold;
+}
+
+#list{
+    display: flex;
+}
+#list li{
+    margin: 0px 10px;
+}
+#pandl{
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+}
+.button{
+    color: white;
+    background-color: #16a2b8;
+    margin-right: 290px ;
+    border: 0px ;
+    height: 35px;
+    width: 100px;
+    font-size: large;
+}
+#flexbox{
+    display: flex;
+    background-color: white;
+    height: 900px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+
+}
+#leftC{
+    background-color: white; 
+    height: 100%;
+    margin-right: 15px;
+    width: 600px;
+    flex: 3;
+    
+}
+#rightC{
+    background-color: white;
+    height: 100%;
+    margin-left: 15px;
+    width: 400px;
+    flex: 2;
+    
+}
+#cardbox{
+    border: 3px gray solid;
+    margin-top: 40px;
+}
+#maincontent{
+    margin: 35px;
+}
+#profilepic{
+    border-radius: 50%;
+    margin-top: -110px;
+}
+#bluebar{
+    height: 150px;
+    background-color: #16a2b8;
+
+}
+#name{
+    margin-top: 0px;
+}
+.location{
+    display: flex;
+    height: 18px;
+    align-items: center;
+}
+#mapicon{
+    margin-right: 10px;
+}
+#edubox{
+    border: 3px gray solid;
+    margin-top: 40px;
+}
+#conRequests{
+    margin-top: 40px;
+    border: 3px gray solid;
+    /* width: 500px; */
+}
+.crequest{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+.crequest img{
+    height: 75px;
+    border-radius: 50%;
+    margin: 15px 10px;
+    
+    }
+.picname{
+    display: flex;
+}
+.h3borders{
+    background-color: black;
+    color: white;
+    height: 65px;
+    display: flex;
+    align-content: center;
+}
+
+.smallheader{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+.cr2{
+    background-color:lightsteelblue ;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 15px;
+}
+.cr500{
+    background-color: lightsteelblue ;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 15px;
+}
+#yourconnects{
+    margin-top: 40px;
+    border: 3px gray solid;
+    /* width: 500px; */
+    
+}
+#viewmore{
+    border-top: 3px gray solid;
+}
+#viewmore h3{
+    margin: 10px
+}
+.title{
+    margin-left: 20px;
+}
+.eduinfo{
+    margin-left: 20px;
+}
+.eduinfo h3:first-of-type{
+    color: darkgray;
+}
+.icons img{
+    height: 50px;
+}
+.picname h2{
+    margin: auto;
+}
+#edpro{
+    text-decoration: underline;
+}
